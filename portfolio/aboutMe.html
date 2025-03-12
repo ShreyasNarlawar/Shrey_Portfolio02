@@ -571,8 +571,13 @@
           >
         </div>
         <div class="cs_copyright">
-          © 2025 <a href="#">Shreyas Narlawar</a>. All rights reserved.
+          © <span id="year"></span> <a href="#">ShreyasNarlawar</a>. All rights reserved.
         </div>
+        
+        <script>
+          document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+        
       </div>
     </footer>
     <!-- End Footer -->
